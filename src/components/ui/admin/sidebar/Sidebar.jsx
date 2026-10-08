@@ -25,7 +25,7 @@ export default function Sidebar() {
     await logoutApi();
     navigate("/login", { replace: true });
   };
-
+  
   return (
     <aside className="bg-black w-[15%] text-gray-100 p-4">
       {/* Logo */}
