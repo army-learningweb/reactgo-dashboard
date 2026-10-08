@@ -11,8 +11,7 @@ import { useState } from "react";
 import { useThemeContext } from "../../../../contexts/ThemeContext";
 import { useAuthContext } from "../../../../contexts/AuthContext";
 import SidebarLink from "./SidebarLink";
-import SidebarSubLink from "./SidebarSubLink";
-import Logo from "../logo";
+import SidebarSubLink from "./SidebarSubLink"
 
 export default function Sidebar() {
 
@@ -30,7 +29,7 @@ export default function Sidebar() {
   return (
     <aside className="bg-black w-[15%] text-gray-100 p-4">
       {/* Logo */}
-      <Logo />
+      LOGO
 
       <div className="flex flex-col gap-1">
         {/* Dashboard */}
